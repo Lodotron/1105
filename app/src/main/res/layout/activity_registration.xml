@@ -10,66 +10,89 @@
         android:id="@+id/Login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Login"
+        app:layout_constraintBottom_toTopOf="@+id/Password"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="229dp" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
         android:id="@+id/Password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="24dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Password"
+        app:layout_constraintBottom_toTopOf="@+id/RepeatPassword"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="321dp" />
+        app:layout_constraintTop_toBottomOf="@+id/Login" />
 
     <EditText
         android:id="@+id/RepeatPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Repeat password"
+        app:layout_constraintBottom_toTopOf="@+id/Email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="426dp" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
         android:id="@+id/Email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Email"
+        app:layout_constraintBottom_toTopOf="@+id/Cancel"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="525dp" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
         android:id="@+id/Cancel"
-        android:layout_width="150"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
         android:text="Cancel"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="650dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Registration"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
         android:id="@+id/Registration"
-        android:layout_width="150"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="400dp"
         android:text="Registration"
-        tools:layout_editor_absoluteX="245dp"
-        tools:layout_editor_absoluteY="650dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="200dp"
+        android:layout_marginBottom="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"

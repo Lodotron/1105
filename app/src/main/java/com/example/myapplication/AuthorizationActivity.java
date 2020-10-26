@@ -20,6 +20,7 @@ public class AuthorizationActivity extends AppCompatActivity {
         setContentView(R.layout.activity_authorization);
     }
 
+
     public void signin(View view) {
         log = (EditText) findViewById(R.id.logedittext);
         pass = (EditText) findViewById(R.id.passedittext);
@@ -35,5 +36,6 @@ public class AuthorizationActivity extends AppCompatActivity {
         else {
             Toast.makeText(getApplicationContext() , "Логин или пароль введены не верно.", Toast.LENGTH_SHORT).show();
         }
+
     }
 }
