@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">My Application</string>
+
+    <string-array name="pizza_name">
+        <item>Peperoni</item>
+        <item>Cheezy</item>
+        <item>Margarita</item>
+        <item>DoublePeperoni</item>
+        <item>Meet</item>
+        <item>MegaPizza</item>
+        <item>StudentPizza</item>
+        <item>SuperSweet</item>
+        <item>Hawaii</item>
+        <item>FourSeason</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Very 1</item>
+        <item>Very 2</item>
+        <item>Very qweqw</item>
+        <item>Very tas</item>
+        <item>Very ty</item>
+        <item>Very 123</item>
+        <item>Very 3123y</item>
+        <item>Very tasty</item>
+        <item>Very ta3213123y</item>
+        <item>Very tasty</item>
+        <item>Very tasty</item>
+    </string-array>
 </resources>

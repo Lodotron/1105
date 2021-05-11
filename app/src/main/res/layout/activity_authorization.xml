@@ -17,25 +17,25 @@
         app:srcCompat="@drawable/pizza_slice" />
 
     <EditText
-        android:layout_marginTop="100dp"
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/logedittext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:hint="Name"
         tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="137dp"
-        android:autofillHints="" />
+        tools:layout_editor_absoluteY="137dp" />
 
     <EditText
-        android:layout_marginTop="40dp"
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/passedittext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:hint="Password"
         tools:layout_editor_absoluteX="58dp"
         tools:layout_editor_absoluteY="257dp" />
 
@@ -44,6 +44,7 @@
         android:id="@+id/Login"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
+        android:onClick="signin"
         android:text="Login" />
 
     <Button
@@ -51,6 +52,15 @@
         android:id="@+id/SighUp"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:onClick="signin"
+        android:onClick="signup"
         android:text="SignUp" />
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
 </LinearLayout>
